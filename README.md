@@ -1,4 +1,4 @@
-# Hackathon Project
+# The SHIBU: Sound Haptic Interface for Better Understanding
 
 An engineering prototype developed as a collaborative hackathon project by a three-member team. The project combines software, hardware interfacing, computer vision/matching, and system integration into a single working solution.
 
