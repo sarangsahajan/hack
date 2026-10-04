@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "1 Matcher tests", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/test_matcher.py", "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "2 List serial ports", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--list-ports"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "3 List mics", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--list-devices"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "4a Bench N", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--send", "N"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "4b Bench W", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--send", "W"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "4c Bench R", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--send", "R"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "4d Bench T", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--send", "T"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "4e Stop all (X)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--send", "X"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "5 Say text -> serial", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--say", "Shibu watch out"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "6 Dry run (mic, no serial)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--no-serial", "--debug"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "7 Live (mic -> serial)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--port", "auto", "--debug"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"},
+    {"name": "8 Live + needle", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py", "args": ["--port", "auto", "--debug", "--needle"], "console": "integratedTerminal", "python": "${workspaceFolder}/.venv/bin/python", "cwd": "${workspaceFolder}"}
+  ]
+}
