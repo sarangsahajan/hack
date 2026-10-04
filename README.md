@@ -8,7 +8,7 @@ An engineering prototype developed as a collaborative hackathon project by a thr
 |---|---|
 | **Sarang K** | Development & System Integration |
 | **Karthik N Nair** | Development & Hardware/Software Integration |
-| **Ebin Phil Vinod** | Development & Testing/Integration |
+| **Emil Phil Vinod** | Development & Testing/Integration |
 
 > **All three team members contributed directly to the development and implementation of the codebase.**  
 > The project was developed collaboratively, with members working on different components and contributing changes throughout the development process.
@@ -94,7 +94,7 @@ python test_matcher.py
 
 ## 🤝 Collaboration
 
-This repository represents **joint work by Sarang K, Karthik N Nair, and Ebin Phil Vinod**.
+This repository represents **joint work by Sarang K, Karthik N Nair, and Emil Phil Vinod**.
 
 Development was carried out collaboratively, with each member contributing code, debugging, testing, integration, and iterative improvements during the project.
 
@@ -104,7 +104,7 @@ The repository owner is **Sarang K**, but ownership of the repository should not
 
 - **Sarang K**
 - **Karthik N Nair**
-- **Ebin Phil Vinod**
+- **Emil Phil Vinod**
 
 All three members contributed to the codebase and project development.
 
